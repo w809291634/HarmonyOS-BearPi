@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "type": "shell",
+          "label": "build_all",
+          "command": "rm -f /mnt/hgfs/ubuntu_share/Hi3861_wifiiot_app_allinone.bin && python build.py BearPi-HM_Nano && cp -rf out/BearPi-HM_Nano/Hi3861_wifiiot_app_allinone.bin /mnt/hgfs/ubuntu_share/Hi3861_wifiiot_app_allinone.bin",
+          "args": [],
+          "options": {
+              "cwd": "${workspaceFolder}"
+          },
+          "group": "build"
+      },
+      {
+        "type": "shell",
+        "label": "build_ext_components",
+        "command": "python build/lite/build_ext_components.py --path=vendor/hisi/hi3861/hi3861 --command='sh hm_build.sh'",
+        "args": [],
+        "options": {
+            "cwd": "${workspaceFolder}"
+        },
+        "group": "build"
+    },
+  ]
+}

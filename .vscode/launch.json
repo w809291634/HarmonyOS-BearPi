@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        // Deveco auto-generated start
+        {
+            "type": "deveco-device-tool-debug",
+            "request": "launch",
+            "DevEcoDebugInitPath": "${workspaceRoot}/.deveco/.debug-cache/bearpi_hm_nano",
+            "servertype": "jlink",
+            "name": "bearpi_hm_nano: DevEco GDB Launch",
+            "executable": "/home/bearpi/bearpi_hm_nano/out/BearPi-HM_Nano/Hi3861_wifiiot_app.out",
+            "toolchainBinDir": "/usr/bin",
+            "projectEnvName": "bearpi_hm_nano",
+            "coreDir": "/home/bearpi/Huawei/DevEco-Device-Tool/core",
+            "preLaunchTask": "deveco: run debug server - bearpi_hm_nano",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "deveco-device-tool-debug",
+            "request": "attach",
+            "DevEcoDebugInitPath": "${workspaceRoot}/.deveco/.debug-cache/bearpi_hm_nano",
+            "servertype": "jlink",
+            "name": "bearpi_hm_nano: DevEco GDB Attach",
+            "executable": "/home/bearpi/bearpi_hm_nano/out/BearPi-HM_Nano/Hi3861_wifiiot_app.out",
+            "toolchainBinDir": "/usr/bin",
+            "projectEnvName": "bearpi_hm_nano",
+            "coreDir": "/home/bearpi/Huawei/DevEco-Device-Tool/core",
+            "preLaunchTask": "deveco: run debug server - bearpi_hm_nano",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+        // Deveco auto-generated end
+
+    ]
+}

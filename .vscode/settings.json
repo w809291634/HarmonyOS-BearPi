@@ -1,0 +1,49 @@
+{
+    "search.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "kernel/liteos_a/": true,
+        "ohos_bundles": true,
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "kernel/liteos_a/": true,
+        "ohos_bundles": true,
+    },
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/**"
+    ],
+    "C_Cpp.default.browse.path": [
+        "${workspaceFolder}/**"
+    ],
+    "debug.onTaskErrors": "debugAnyway",
+    "editor.renderControlCharacters": true,                 //  显示空格 
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "files.associations": {
+      "array": "c",
+      "string_view": "c",
+      "initializer_list": "c",
+      "utility": "c",
+      "string": "c",
+      "feature_impl.h": "c",
+      "socket.h": "c",
+      "hiview_log.h": "c",
+      "rf_if_app.h": "c",
+      "e53_sf1.h": "c",
+      "wifiiot_errno.h": "c",
+      "apl_utils.h": "c",
+      "e53_sc2.h": "c",
+      "queue.h": "c",
+      "key.h": "c",
+      "stdio.h": "c",
+      "rf_thread.h": "c",
+      "rf_if_hw.h": "c",
+      "wifi_device.h": "c",
+      "mydbg.h": "c",
+      "e53_ia1.h": "c"
+    },
+    "cmake.sourceDirectory": "/home/bearpi/HarmonyOS-BearPi/foundation/graphic/lite"
+}
